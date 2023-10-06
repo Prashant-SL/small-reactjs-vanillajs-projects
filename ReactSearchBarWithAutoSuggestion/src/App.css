@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+input, .suggestionBox {
+  width: 300px;
+  padding: 10px;
+}
+
+.suggestionBox {
+  border: 1px solid black;
+  max-height: 100px;
+  overflow: scroll;
+}
