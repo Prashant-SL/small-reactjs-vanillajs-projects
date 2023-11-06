@@ -1,0 +1,26 @@
+li{
+    margin-bottom: 10px;
+    padding: 1% 2%;
+    list-style: none;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.tabs .active {
+    background-color: #5e2b2b;
+    color: #4d5bf9;
+}
+
+.contents p {
+    display: none;
+
+}
+
+.contents .active {
+    display: block;
+    text-align: center;
+}
